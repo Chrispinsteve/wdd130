@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+
+header {
+    text-align: center;
+    color: #3786a8;
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+div {
+    font-family: 'Oswald', sans-serif;
+}
+
+#purpose {
+    width: 600px;
+    margin: 20px auto;
+    border: 5px solid #7ab7d1;
+    padding: 21px;
+    background-color: #d8f7fa;
+    color: #333;
+}
+
+ul {
+    margin: 20px;
+    padding: 20px;
+}
+
+#audience {
+    width: 600px;
+    margin: 20px auto;
+    border: 5px solid #7ab7d1;
+    padding: 21px;
+    background-color: #c9f0f3;
+    color: #333;
+}
+
+#typography {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    padding: 5px;
+    color: rgb(26, 46, 46);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    color: rgb(124, 135, 196);
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 5px solid #cccccc;
+    text-align: center;
+    background-color: rgb(220, 220, 220);
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+h1 {
+    color: #4A5695;
+}
+
+nav {
+    background-color: #1666a8;
+    text-align: center;
+    padding: 1px 0;
+    font-size: 1rem;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: #133854;
+}
+
+p {
+    padding: 25px;
+}
+
+:root {
+    --primary-color: #a2b0fe;
+    --secondary-color: #01001b;
+    --accent1-color: #8c9bf0;
+    --accent2-color: #4a5695;
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Roboto Condensed', sans-serif;
+    --nav-background-color: #333;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #FF5733;
+    --nav-hover-background-color: #333;
+}

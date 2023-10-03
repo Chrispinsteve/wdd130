@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #0077b6;
+    --secondary-color: #00b4d8;
+    --text-color: #ffffff;
+    --link-color: #a8a140;
+    --social-media-link-color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color);
+  }
+  
+  p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color);
+    line-height: 1.5;
+  }
+
+  h1 {
+    position: absolute;
+    color: var(--primary-color);
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  .social-media-link {
+    color: var(--social-media-link-color);
+    text-decoration: none;
+  }
+  
+  .social-media-link:hover {
+    text-decoration: underline;
+  }
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px; 
+}
+
+.hero {
+    position: relative;
+    height: 400px;
+    
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero article {
+    position: absolute;
+    top: 10%; 
+    left: 50%;
+    transform: translateX(-40%);
+    background-color: rgba(255, 255, 255, 0.244); 
+    padding: 10px;
+  }
+  
+  .hero img {
+    float: right;
+    margin-left: 20px;
+  }
+
+  nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s;
+    padding: 2rem;
+}
+
+#history {
+  width: 1200px;
+  margin: 20px auto;
+  margin-top: 100px;
+  border: 5px solid #7ab7d11d;
+  padding: 10px;
+  background-color: #c9f0f32c;
+  color: #333;
+}
+
+h5{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #161414;
+}
+  
+footer {
+  margin-top: 5px;
+  border-top: 5px solid #cccccc73;
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+}
+  
