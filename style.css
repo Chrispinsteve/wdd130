@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Class Selectors */
+/* Box class selector */
+.box {
+    margin: 0rem;
+    padding: 1rem;
+    border: 1px solid #3d6ba857;
+    background-color: #ffffff3c;
+    color: #333;
+    display: flex;
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    align-items: center;
+    width: 25.3rem;
+    height: 32.5rem;
+
+}
+
+/* Style for the profile image inside the box */
+.box img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0px; /* Espacement entre l'image et le contenu précédent */
+    float: right;
+}
+
+/* Style for the paragraph */
+.box-content p {
+    margin: 0; 
+    text-align: justify;
+}
+
+/* Style for the title "Steve Chrispin" */
+.box-content h1 {
+    margin-top: 0px; /* Espacement entre le titre et le contenu précédent */
+    color: rgb(42, 134, 165);
+    /* 4- A bottom border is applied to the h1 element. */
+    border-bottom: 3px solid rgb(42, 134, 165);
+}
+
+.box2 {
+    margin: 0rem;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    background-color: #f4f4f4;
+    color: #333;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 25.3rem;
+}
+
+/* Position the state/country heading on top of the image */
+aside {
+    position: relative;
+}
+
+/* Additional Styles */
+header {
+    background-color: #444242;
+    color: #fff;
+    padding: 8px;
+    /* 1- The header element is limited in width and centered on the page. */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* 2- CSS flex is used to horizontally layout the nav element links. */
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 10px;
+    /* 3- The nav anchor tags are styled with padding and no text-decoration. */
+    padding: 10px;
+    text-decoration: none;
+}
+
+main img {
+    float: left;
+    width: 40%;
+    padding: 2%;
+}
+
+main p {
+    width: 60%;
+    padding: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    /* 7- The page has sufficient contrast. */
+    background-color: #333;
+    color: #fff;
+}
+
+/*_---------------------------------------_------------*/
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center; /* Center the elements vertically */
+    justify-content: center; /* Center the elements horizontally */
+    grid-column: 1/2;
+}
+
+main {
+    grid-column: 5;
+    margin: 1rem;
+}
+
+aside {
+    width: 35rem;
+    height: 30rem;
+    position: relative;
+    grid-column: 3/2;
+    grid-row: 1/1;
+}
+
+.country {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #3d6ba857;
+    background-color: rgba(68, 71, 74, 0.628);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    align-items: center;
+    width: 20rem;
+    height: 35rem;
+}
+
+.country img {
+    width: 80%;
+    margin: 1rem;
+}
+
+aside h2 {
+    border-bottom: 20px #18a1b1;
+    position: relative;
+}
+
+.country p {
+    width: 80%;
+}
