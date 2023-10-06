@@ -164,7 +164,7 @@ aside {
 
 aside h2 {
     border-bottom: 20px #18a1b1;
-    position: relative;
+    position: absolute;
 }
 
 .country p {
