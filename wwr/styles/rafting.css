@@ -63,7 +63,7 @@ a {
   top: 10%;
   left: 50%;
   transform: translateX(-40%);
-  background-color: #1f6e7465;
+  background-color: #1f6e74a9;
   padding: 10px;
 }
 
@@ -91,7 +91,7 @@ nav a {
   margin-top: 3%;
   border: 5px solid #7ab7d11d;
   padding: 10px;
-  background-color: #1f6e7465;
+  background-color: #1f6e74a9;
   color: #333;
   justify-content: center;
   left: 0%;
@@ -116,12 +116,12 @@ footer {
 }
 
 header {
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Create three equal columns */
   align-items: center;
   border-bottom: 1px solid #ccc;
-  max-width: 1000px;
+  max-width: 500px;
   justify-content: space-evenly;
 }
 
@@ -143,7 +143,7 @@ nav {
   position: relative;
   display: flex;
   justify-content: center;
-  color: #161414;
+  color: #04104d;
   align-items: center;
   text-align: center;
   margin-top: 15%;
@@ -155,3 +155,4 @@ nav {
   justify-content: space-evenly;
   margin-top: -3%;
 }
+
