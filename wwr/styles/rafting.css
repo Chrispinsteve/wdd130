@@ -130,7 +130,6 @@ nav {
   list-style: none;
 }
 
-
 #adventure {
   justify-content: space-around;
   display: flex;
@@ -156,7 +155,6 @@ nav {
   margin-top: -3%;
 }
 
-h6 {
-  color: #161414;
+#adventure h6 {
+  color: #000000;
 }
-
