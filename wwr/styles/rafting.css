@@ -130,6 +130,7 @@ nav {
   list-style: none;
 }
 
+
 #adventure {
   justify-content: space-around;
   display: flex;
@@ -158,3 +159,84 @@ nav {
 #adventure h6 {
   color: #000000;
 }
+
+
+/*-------------------------------*/
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 3px solid rgba(17, 93, 160, 0.81);
+  border-radius: 0.5rem;
+  background-color: #2b8dab;
+  display: grid;
+  color: #ffffff;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.2rem;
+  margin: 1rem;
+  border: 1px solid rgba(1, 87, 60, 0.961);
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+legend {
+  padding: .5rem;
+  color: rgb(214, 243, 225);
+  font-size: 1.3em;
+  margin-left: 32%;
+}
+
+label, input, select, textarea {
+  font-family: Roboto, arial, sans-serif;
+  position:relative;
+}
+
+label {
+  text-align: left;
+  padding: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.7rem;
+  border-color: #07430961;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0.8rem;
+  background-color: rgba(10, 71, 136, 0.517);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  width: 180px;
+  margin-left: 30%;
+  border: 1px #ffffff;
+}
+
+button :hover {
+  background-color: rgb(77, 81, 155);
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+#text {
+  margin-left: 25%;
+  font-size: larger;
+}
+
