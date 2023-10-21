@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap');
-
 :root {
   --primary-color: #0077b6;
   --secondary-color: #00b4d8;
@@ -63,7 +62,7 @@ a {
   top: 10%;
   left: 50%;
   transform: translateX(-40%);
-  background-color: #1f6e74a9;
+  background-color: #07385ef4;
   padding: 10px;
 }
 
@@ -103,7 +102,7 @@ h5 {
 }
 
 footer {
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   display: flex;
   grid-template-rows: 200px 1fr 2fr;
   align-items: center;
@@ -116,7 +115,7 @@ footer {
 }
 
 header {
-  margin: 0.5rem auto;
+  margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Create three equal columns */
   align-items: center;
@@ -137,6 +136,7 @@ nav {
   align-items: center;
   grid-template-columns: repeat(1, 1fr);
   text-align: center;
+  margin-top: -1%;
 }
 
 #advent h2 {
@@ -185,9 +185,9 @@ fieldset {
 
 legend {
   padding: .5rem;
-  color: rgb(214, 243, 225);
-  font-size: 1.3em;
-  margin-left: 32%;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  margin-left: 36%;
 }
 
 label, input, select, textarea {
@@ -238,5 +238,81 @@ button :hover {
 #text {
   margin-left: 25%;
   font-size: larger;
+}
+
+/*_________________________*/
+.box {
+  margin: 0.8rem;
+  padding: 0.5rem;
+  border: 1px solid #3d6ba857;
+  background-color: #39789cd1;
+  color: #333;
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  align-items: center;
+  justify-content: space-4;
+  width: 16.3rem;
+  height: 22.5rem;
+  border-radius: 0.7rem;
+}
+
+.box button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0rem;
+  background-color: rgba(6, 40, 133, 0.563);
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  width: 70px;
+  margin-left: 3%;
+  border: 1px #ffffff;
+}
+
+#boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgb(42, 134, 165);
+  border-bottom: 1px solid rgb(42, 134, 165);
+}
+#boxes2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(42, 134, 165);
+}
+
+#title h1 {
+  justify-content: center;
+  margin: 0.2rem;
+  margin-top: 55rem;
+  position: relative;
+  top: 0;
+  left: 91.8%;
+  transform: translate(-50%, -50%);
+  color: rgb(6, 61, 87);
+  font-size: 36px;
+}
+
+#h{
+  justify-content: center;
+  margin: 1rem;
+  margin-top: 2rem;
+  position: relative;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  color: rgb(6, 61, 87);
+  font-size: 36px;
+}
+
+#advents h2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #04104d;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
 }
 
