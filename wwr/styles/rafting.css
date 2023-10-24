@@ -53,7 +53,7 @@ a {
   top: 0;
   left: 100%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 36px;
 }
 
@@ -80,6 +80,9 @@ nav a {
   font-weight: normal;
   padding: 1rem;
   display: flex;
+}
+nav a:hover {
+  color: #4c9bd7;
 }
 
 #history {
@@ -159,7 +162,6 @@ nav {
   color: #000000;
 }
 
-
 /*-------------------------------*/
 
 form {
@@ -226,6 +228,7 @@ button {
 }
 
 button :hover {
+  color: rgb(77, 81, 155);;
   background-color: rgb(77, 81, 155);
 }
 
@@ -284,7 +287,7 @@ button :hover {
 #title h1 {
   justify-content: center;
   margin: 0.2rem;
-  margin-top: 55rem;
+  margin-top: 45rem;
   position: relative;
   top: 0;
   left: 91.8%;
@@ -292,7 +295,6 @@ button :hover {
   color: rgb(6, 61, 87);
   font-size: 36px;
 }
-
 #h{
   justify-content: center;
   margin: 1rem;
@@ -313,4 +315,9 @@ button :hover {
   text-align: center;
   margin-top: 5%;
 }
+
+main {
+  margin-top: -30%;
+}
+
 
