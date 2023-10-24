@@ -265,7 +265,7 @@ button :hover {
   border: none;
   border-radius: 0.3rem;
   font-size: 1.2rem;
-  width: 70px;
+  width: 89px;
   margin-left: 3%;
   border: 1px #ffffff;
 }
@@ -295,6 +295,8 @@ button :hover {
   color: rgb(6, 61, 87);
   font-size: 36px;
 }
+
+
 #h{
   justify-content: center;
   margin: 1rem;
@@ -319,5 +321,6 @@ button :hover {
 main {
   margin-top: -30%;
 }
+
 
 
