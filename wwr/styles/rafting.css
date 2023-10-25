@@ -319,7 +319,22 @@ button :hover {
 }
 
 main {
-  margin-top: -30%;
+  margin-top: -40%;
+}
+/*---------------Trip Infos---------------------*/
+#tripin {
+  position: relative;
+  display: block;
+  width: 1000px;
+  margin: 20px auto;
+  margin-top: 3%;
+  border: 1px solid #7ab7d11d;
+  padding: 10px;
+  background-color: #566067;
+  color: #333;
+  justify-content: center;
+  left: 0%;
+  border-radius: 1.5rem;
 }
 
 
