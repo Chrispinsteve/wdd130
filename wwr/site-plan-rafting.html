@@ -3,36 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rafting Site Plan | Steve Chrispin</title>
     <meta name="description" content="Water distribution where the needs are">
     <meta name="author" content="Steve Chrispin">
+    <title>Rafting Site Plan | Steve Chrispin</title>
     <link rel="stylesheet" type="text/css" href="styles/site-plan-rafting.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <style>
         body {
-            background-image: url("images/boat.jpg");
+            background-image: url("images/hhh.jpg");
             background-repeat: no-repeat;
             background-attachment: scroll;
-            background-size: 1500px 1200px;
+            font-family: 'Open Sans', Arial, sans-serif;    background-size: 1500px 1000px;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+        <img src="images/HYDRA-eau.png" alt="White Water Rafting Logo" width="200">
+        <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
         </nav>
-        <h1>Rafting Site Plan</h1>
-        <div>Steve Chrispin</div>
     </header>
-    <main> 
-        <h2>Overview</h2>
-        <section id="purpose">
+    
+    <main>
+        <h1 style="color: rgb(255, 255, 255); justify-content: center;">Hydra</h1> 
+        <section id="purpose">  
             <h3>Purpose</h3>
-            <p>Our company, HYDRA, exists to provide access to clean water to people in need around the world. By visiting our website, you will find all the information you need about our mission and work.</p>
+            <p>Our company, HYDRA, exists to provide access to clean water to people 
+                in need around the world. By visiting our website, you will find all 
+                the information you need about our mission and work.</p>
+           
+            <a href="trips.html"><button type="submit">Take a Trip</button></a>          
         </section>
         <section id="audience">
             <h3>Audience</h3>
@@ -43,53 +47,64 @@
                 <li><strong>Where can I find a central location?</strong><br>For now, HYDRA is not yet operational.</li>
             </ul>
         </section>
+        <!-----------------------------------------------Sign-Up--------------------------------------------------->
+        <div class="number-five">
+            <form>
+                <fieldset>
+                    <legend>Sign-Up</legend>
+                    <div class="form-item column1">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <div class="form-item column2">
+                        <label for="newsletter">I'm not a robot:</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                    <button type="submit">Sign-Up</button>
+                </fieldset>
+            </form>
+        </div>
+        <!------------------------------------------------------------------------------------------------->
+
+        <section id="advent">
+            <h2>Rafting Images</h2>
+        </section>
+
+        <div id="adventure">
+            <figure class="img1">
+                <img src="images/water.webp" alt="White Water Rafting 1" width="260">
+                <figcaption style="color: #4a5695;">Women in River</figcaption>
+            </figure>
+            <figure class="img3">
+                <img src="images/white-water-rafting.webp" alt="White Water Rafting 3" width="300">
+                <figcaption style="color: #4a5695;">Kids in River</figcaption>
+            </figure>
+            <figure class="img5">
+                <img src="images/water-raft.webp" alt="White Water Rafting 5" width="300">
+                <figcaption style="color: #4a5695;">Men in River</figcaption>
+            </figure>
+        </div>
+
+        
+            
         <section id="logo">
-            <h2>Branding</h2>
-            <h3>Website Logo</h3>
-            <img src="images/HYDRA-eau.png" alt="HYDRA eau Logo" width="400">
-        </section>
-        <section id="color-scheme">
-            <h2>Style Guide</h2>
-            <h3>Color Palette</h3>
-            <p>Here's the color scheme for HYDRA:</p>
-            <div style="display: flex;">
-                <div style="width: 50px; height: 50px; background-color: #a2b0fe; margin-right: 10px;"></div>
-                <div style="width: 50px; height: 50px; background-color: #5f58dc; margin-right: 10px;"></div>
-                <div style="width: 50px; height: 50px; background-color: #8c9bf0; margin-right: 10px;"></div>
-                <div style="width: 50px; height: 50px; background-color: #4a5695;"></div>
-            </div>
-            <p><a href="https://coolors.co/a2b0fe-5f58dc-8c9bf0-4a5695" target="_blank">View on Coolors.co</a></p>
-        </section>
-        <section id="typography">
-            <h3>Typography</h3>
-            <p>We use the following Google fonts for our website: Oswald, Roboto Condensed</p>
-        </section>
-        <section id="Headings_Example_Font">
-            <h4>Headnings Example Font</h4>
-            <p>The Crystal River beckons with a siren's call,
-            A thrilling ride, a grand watery sprawl.
-            Rapids roaring, adventure in the air,
-            With friends and laughter, we all dare.
-            Water's magic, both wild and serene,
-            A rafting journey like you've never seen.
-            In nature's embrace, we find our delight,
-            Rafting the Crystal, from morning 'til night.</p>
-        </section>
-        <section id="Colored_Callout_Example_Font">
-            <h4>Colored Callout Example Font</h4>
-            <p style="color: #FF5733; font-family: 'ExampleFont', sans-serif;">Colored Callout Example</p>
-        </section>
-        <h3>Navigation</h3>
-        <section id="wireframe">
-            <h2>Wireframes</h2>
-            <h3>Home Page Wireframe</h3>
-            <h3>Here you can see some beautiful images</h3>
-            <img src="images/boat.jpg" alt="water" width="400">
-            <img src="images/kami.png" alt="eco room" width="400">
+                <h2>Branding</h2>
+                <img src="images/HYDRA-eau.png" alt="HYDRA eau Logo" width="400">
         </section>
     </main>
-    <footer>
-        &copy; <span id="copyright-year">2023</span> HYDRA Rafting | Steve Chrispin | WDD130
+
+    <footer class="footer">
+        <p>&#169; 2023 White Water Rafting Company - Steve Chrispin</p>
+        <p><a href="https://app.moqups.com/bbv9g8f2HSU3mnyexNyNMA7l00eYzEzH/view/page/a86193d36">Wireframe</a></p>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook" width="20"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter" width="20"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram" width="20"></a>
     </footer>
 </body>
 </html>
