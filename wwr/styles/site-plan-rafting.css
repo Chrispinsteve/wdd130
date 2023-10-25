@@ -1,22 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+:root {
+    --primary-color: #a2b0fe;
+    --secondary-color: #01001b;
+    --accent1-color: #8c9bf0;
+    --accent2-color: #4a5695;
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Roboto Condensed', sans-serif;
+    --nav-background-color: #333;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #FF5733;
+    --nav-hover-background-color: #333;
+}
 
 header {
-    text-align: center;
-    color: #3786a8;
-    padding: 20px;
-    background-color: var(--accent1-color);
+  margin: 0.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Create three equal columns */
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 500px;
+  justify-content: space-evenly;
 }
+/*------------------------*/
 
+nav {
+    display: flex;
+    list-style: none;
+  }
+
+nav a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px;
+  font-size: 21px;
+  font-weight: normal;
+  padding: 1rem;
+  display: flex;
+}
+nav a:hover {
+    color: #4c9bd7;
+  }
+
+  a {
+    color: var(--link-color);
+  }
+  
+  .social-media-link {
+    color: var(--social-media-link-color);
+    text-decoration: none;
+  }
+  
+  .social-media-link:hover {
+    text-decoration: underline;
+  }
+
+/*----------------------------------*/
 div {
     font-family: 'Oswald', sans-serif;
+    color: #ffffff;
 }
 
+
 #purpose {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 600px;
     margin: 20px auto;
-    border: 5px solid #7ab7d1;
-    padding: 21px;
-    background-color: #d8f7fa;
+    border-radius: 1.5rem;
+    padding: 12px;
+    background-color: #0964a9;
     color: #333;
 }
 
@@ -24,13 +76,16 @@ ul {
     margin: 20px;
     padding: 20px;
 }
+/*-----------------------------------*/
 
 #audience {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 600px;
-    margin: 20px auto;
-    border: 5px solid #7ab7d1;
-    padding: 21px;
-    background-color: #c9f0f3;
+    height: 370px;
+    margin: 15px auto;
+    border-radius: 1.5rem;
+    padding: 12px;
+    background-color: #0964a9;
     color: #333;
 }
 
@@ -45,16 +100,29 @@ ul {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     padding: 20px;
-    color: rgb(124, 135, 196);
+    color: rgb(9, 45, 94)
 }
 
+h3 {
+  margin-bottom: -5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+/*-------------------------------------*/
 footer {
-    margin-top: 20px;
-    border-top: 5px solid #cccccc;
-    text-align: center;
-    background-color: rgb(220, 220, 220);
-}
-
+    color: #ffffff;
+    margin: 0.5rem auto;
+    display: flex;
+    grid-template-rows: 200px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 2000px;
+    margin-top: 1px;
+    background-color: rgb(20, 45, 94);
+    justify-content: space-evenly;
+  }
+  
 body {
     font-family: 'Oswald', sans-serif;
     max-width: 100%;
@@ -66,45 +134,103 @@ h1 {
     color: #4A5695;
 }
 
-nav {
-    background-color: #1666a8;
-    text-align: center;
-    padding: 1px 0;
-    font-size: 1rem;
-    display: flex;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 15px;
-    font-size: 18px;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: #133854;
-}
-
 p {
     padding: 25px;
+    color: #fff;
+}
+ul {
+  color: #ffff;
+}
+/*-------------------- SIGN UP ----------------------------*/
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 3px solid rgb(17, 93, 160);
+  border-radius: 0.5rem;
+  background-color: #2b8dab;
+  display: grid;
+  color: #ffffff;
 }
 
-:root {
-    --primary-color: #a2b0fe;
-    --secondary-color: #01001b;
-    --accent1-color: #8c9bf0;
-    --accent2-color: #4a5695;
-    --heading-font: 'Oswald', sans-serif;
-    --paragraph-font: 'Roboto Condensed', sans-serif;
-    --nav-background-color: #333;
-    --nav-link-color: #fff;
-    --nav-hover-link-color: #FF5733;
-    --nav-hover-background-color: #333;
+fieldset {
+  display: grid;
+  grid-gap: 0.2rem;
+  margin: 1rem;
+  border: 2px solid rgba(26, 48, 118, 0.961);
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+legend {
+  padding: .5rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  margin-left: 36%;
+}
+
+label, input, select, textarea {
+  font-family: Roboto, arial, sans-serif;
+  position:relative;
+}
+
+label {
+  text-align: left;
+  padding: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.7rem;
+  border-color: #07430961;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0.8rem;
+  background-color: rgb(9, 63, 120);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  width: 180px;
+  margin-left: 33%;
+  border: 5px #ffffff;
+}
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+#text {
+  margin-left: 25%;
+  font-size: larger;
+}
+/*------------------------------------------------------------*/
+#adventure {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  margin-top: -1%;
+}
+
+#advent h2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #04104d;
+  align-items: center;
+  text-align: center;
+}
+#advent {
+  margin-bottom: -2%;
 }
