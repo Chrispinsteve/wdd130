@@ -337,5 +337,31 @@ main {
   border-radius: 1.5rem;
 }
 
+/*------------------Table Sumary--------------------*/
+table,
+td {
+  border: 2px solid #333333;
+  border-collapse: collapse;
+}
+
+thead,
+tfoot {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+caption {
+  font-weight: 700;
+  font-size:larger;
+  color: navy;
+  font-variant: small-caps;
+}
+
+/*------------------------------------*/
+
 
 
