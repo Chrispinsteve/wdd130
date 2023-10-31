@@ -321,7 +321,7 @@ button :hover {
 main {
   margin-top: -40%;
 }
-/*---------------Trip Infos---------------------*/
+/*-------------------Trip Infos---------------------*/
 #tripin {
   position: relative;
   display: block;
@@ -360,8 +360,6 @@ caption {
   color: navy;
   font-variant: small-caps;
 }
-
 /*------------------------------------*/
-
 
 
